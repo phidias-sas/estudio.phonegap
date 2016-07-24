@@ -1,8 +1,7 @@
-Esta aplicacion es simplemente la version vulcanizada de core-app.js
+Esta aplicacion es una copia de phidias.phonegap.
 
-Se debe copiar core-app.js/index.html en  /index.html e incluir
+Se deben agregar los datos del endpoint built-in dentro de <head> en index.html:
 
-        <script src="phonegap.js"></script>
-        <script src="init.js"></script>
-
-en el <head>
+        <meta name="phidias-endpoint" content="https://estudio.api.phidias.es/">
+        <meta name="phidias-title" content="Colegio Estudio">
+        <meta name="phidias-logo" content="http://estudio.phidias.es/interface/xhtml/img/label.png">
