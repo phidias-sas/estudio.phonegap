@@ -4,12 +4,12 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.phidias.app.estudio"
-    versionCode = "600"
+    versionCode = "601"
     version     = "0.1.2" >
 
     <!--iOS build number (use the same versionCode here) -->
     <gap:config-file platform="ios" parent="CFBundleVersion">
-        <string>600</string>
+        <string>601</string>
     </gap:config-file>
 
     <name>Colegio Estudio</name>
